@@ -35,14 +35,16 @@
             <h3>Hello, It's Me</h3>
             <h1>Shaikh Kamil</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>I am a MERN stack, PHP/Laravel Developer with the expertise of HTML, CSS, JS and bootstrap</p>
+            <p>I am a Future MERN stack developer, PHP/MySQL Developer with the expertise of React, HTML, CSS, JS and
+                Bootstrap</p>
             <div class="social-media">
-                <a href=""><i class='bx bxl-linkedin'></i></a>
-                <a href=""><i class='bx bxl-github'></i></a>
-                <a href=""><i class='bx bxl-instagram'></i></a>
-                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href='https://www.linkedin.com/in/shaikh-kamil-897aba113/' target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Kamil1300" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/codesafinah/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <!-- <a href=""><i class='bx bxl-facebook'></i></a> -->
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a onclick="downloadCV()" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
@@ -59,22 +61,25 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Full stack Developer!</h3>
-            <p>I am a self-taught web developer who recently completed a 3-month internship with Fireclash Enterprises
-                Private Limited as a Web Developer. During my internship, I successfully developed over 20 websites
-                using Bootstrap, HTML, custom CSS, PHP, and JavaScript. One notable project I worked on involved
-                creating a live match score display using jQuery with asynchronous functionality.</p>
-            <a href="#" class="btn">Read More</a>
-            <!-- <p>Additionally, I
-                designed and developed a Forum website using core PHP, MySQL, and Bootstrap. Another project I completed
-                was a Travel form specifically designed for college students, utilizing PHP, MySQL, and related
-                technologies.
+            <p>I am a self-taught web developer who recently completed a comprehensive React course. I have hands-on
+                experience with React
+                through various projects, showcasing my ability to build dynamic and responsive user interfaces.
 
-                I am proud of the experience and skills I gained during my internship, and I am confident in my ability
-                to deliver professional and high-quality web development solutions. I am continuously dedicated to
-                expanding my knowledge and staying up-to-date with the latest industry trends.
+                Currently, I am expanding my skill set by learning the MERN stack (MongoDB, Express.js, React, Node.js)
+                and Next.js. While I am actively pursuing roles in React development, I am committed to continuous
+                learning and staying updated with industry trends.
 
-                Currently, I am learning MERN Stack development to sharp my skills and to become a Full stack Developer
-            </p> -->
+                I am eager to contribute my skills and dedication to a dynamic team. Thank you for considering my
+                application. </p>
+            <span id="dots1"></span><span id="more1" class="more">
+
+                <p>Additionally, I have completed a 3-month internship with Fireclash Enterprises
+                    Private Limited as a Web Developer. During my internship, I successfully developed over 20 websites
+                    using Bootstrap, HTML, custom CSS, PHP, and JavaScript. One notable project I worked on involved
+                    creating a live match score display using jQuery with asynchronous functionality.
+                </p>
+            </span>
+            <button id="myBtn1" class="btn" onclick="myFunction(1)">Read More</button>
         </div>
     </section>
 
@@ -86,22 +91,22 @@
             <div class="services-box">
                 <i class='bx bx-code-curly'></i>
                 <h3>Front end Development</h3>
-                <p>Can I make for you a beautiful website using HTML, CSS, JS and Bootstrap?</p>
-                <a href="#" class="btn">Read More</a>
+                <p>Can I make for you a beautiful website using React or HTML, CSS, JS and Bootstrap?</p>
+                <a href="#contact" class="btn" onclick="addM(1)">Why not?</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bx-code'></i>
                 <h3>Back end Development</h3>
-                <p>Can I make for you a fully secure back end using PHP, MySQL and Laravel?</p>
-                <a href="#" class="btn">Read More</a>
+                <p>Can I make for you a fully secure back end using PHP and MySQL</p>
+                <a href="#contact" class="btn" onclick="addM(2)">Sure</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bx-code-block'></i>
                 <h3>Full stack Development</h3>
                 <p>Can I make for you a complete web application using MERN stack?</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn" onclick="addM(3)">Yes Please</a>
             </div>
         </div>
     </section>
@@ -112,56 +117,62 @@
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="images/portfolio1.jpg" alt="">
+                <img src="images/portfolio1.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>Fitness App</h4>
+                    <p>Using React, Router DOM, and Material-UI for a user-friendly workout experience.</p>
+                    <a href="https://fitness-tracking1.netlify.app" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio2.jpg" alt="">
+                <img src="images/portfolio2.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>Movix</h4>
+                    <p>
+                        Using React, React Router DOM, and the TMDB API for movie/TV details with categories and ratings
+                    </p>
+                    <a href="https://movix12.netlify.app" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio3.jpg" alt="">
+                <img src="images/portfolio3.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>Travel Website</h4>
+                    <p>Using React and AOS animation for travel details</p>
+                    <a href="https://travel-website13.netlify.app" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio4.jpg" alt="">
+                <img src="images/portfolio4.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>Gym app</h4>
+                    <p>Using React, Rapid api and Material-UI for exploring exercises</p>
+                    <a href="https://gym-website12.netlify.app" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio5.jpg" alt="">
+                <img src="images/portfolio5.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>Let's Run</h4>
+                    <p>Using HTML, CSS, and Bootstrap, Crafted a stylish shoe store website</p>
+                    <a href="https://lets-run.netlify.app" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/portfolio6.jpg" alt="">
+                <img src="images/portfolio6.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Travel form</h4>
-                    <p>A travel detail submission form using HTML,CSS, PHP and MySQL</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
+                    <h4>To-Do App</h4>
+                    <p>
+                        Using React with local storage for efficient data handling.Created a dark mode-enabled todo app
+                    </p>
+                    <a href="https://todo-app14.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
@@ -171,17 +182,17 @@
     <section id="contact" class="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formspree.io/f/mzblqvol" method="POST" target="_blank">
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
 
             <div class="input-box">
                 <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input id="message1" type="text" placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -196,6 +207,84 @@
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
+
+    <!-- Read more JS  -->
+    <script>
+        function myFunction(i) {
+            var dots = document.getElementById("dots" + i);
+            var moreText = document.getElementById("more" + i);
+            var btnText = document.getElementById("myBtn" + i);
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+    <!-- event handling -->
+    <script>
+        function addM(buttonN) {
+            var messageTextarea = document.getElementById("message")
+            var messageTextarea1 = document.getElementById("message1")
+
+            messageTextarea.value = ""
+
+            switch (buttonN) {
+                case 1:
+                    messageTextarea1.value = "Front end Development"
+                    messageTextarea.value = "Make a good-looking and easy-to-use website."
+                    break;
+                case 2:
+                    messageTextarea1.value = "Back end Development"
+                    messageTextarea.value = "Create a strong backend for smooth website operations."
+                    break;
+                case 3:
+                    messageTextarea1.value = "Full stack Development"
+                    messageTextarea.value = "Build a whole website with a nice design and efficient workings."
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
+
+    <!-- Download CV -->
+    <script>
+        function downloadCV() {
+            var filename = 'KamilCV.pdf'
+            var link = document.createElement('a')
+            link.href = filename
+            link.download = filename
+            document.body.appendChild(link)
+            link.click()
+            document.body.removeChild(link)
+
+            if (filename === 'KamilCV.pdf') {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Download Successful!',
+                    showConfirmButton: false,
+                    timer: 1500
+                })
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Download Failed',
+                    text: 'There was an issue with the download.',
+                    confirmButtonText: 'OK'
+                });
+            }
+        }
+    </script>
+
+    <!-- alert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
